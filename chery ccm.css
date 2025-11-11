@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 15px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: #e60012;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #e60012;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: url('https://www.chery.id/images/bg-home.webp') center/cover no-repeat;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero span {
+  color: #e60012;
+}
+
+.btn {
+  display: inline-block;
+  background: #e60012;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #b0000e;
+}
+
+.models {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.models h2 {
+  margin-bottom: 40px;
+}
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.car-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+}
+
+.car-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.car-card h3 {
+  margin: 15px 0 5px;
+  color: #111;
+}
+
+.car-card p {
+  color: #444;
+}
+
+.about, .contact {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+  margin: 30px 0;
+}
+
+footer {
+  text-align: center;
+  background: #111;
+  color: #fff;
+  padding: 15px;
+}
